@@ -1,0 +1,22 @@
+
+
+body {
+  box-sizing: border-box;
+  background-color: #E6EAF4;
+	padding-top: 30px;
+}
+
+button {
+	outline: none;
+	cursor: pointer;
+}
+
+button[disabled] {
+	cursor: not-allowed;
+}
+
+.contact-container {
+	width: 440px;
+	padding: 32px;
+	margin: 0px auto;
+}

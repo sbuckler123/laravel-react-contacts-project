@@ -1,0 +1,87 @@
+/*NEW CONTACT*/
+
+.new-contact-container {
+	background-color: white;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: stretch;
+	justify-content: space-between;
+}
+
+.new-contact-avatar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.new-contact-avatar img{
+	width: 128px;
+	height: 128px;
+	border-radius: 62px;
+	margin-bottom: 10px;
+}
+
+.new-contact-avatar button {
+	width: 30px;
+    height: 30px;
+    background-color: #5689e8;
+    border: 1px solid #3e79e8;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+.new-contact-inputs {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+}
+
+.new-contact-input {
+	padding-bottom: 20px;	
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+
+.new-contact-input label{
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.new-contact-input input{
+	border-radius: 4px;
+	padding: 5px;
+	font-weight: bold;
+	border: 1px solid #a6a6a6;
+	flex-grow: 1;
+}
+
+.new-contact-buttons {
+	display: flex;
+	width: 250px;
+	justify-content: space-around;
+	padding-bottom: 20px;
+}
+
+.new-contact-buttons button {
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 18px;
+	border: 1px solid #a6a6a6;
+	color: white;
+}
+
+.button-ok {
+	background-color: #72DB63;
+}
+
+.button-cancel {
+	background-color: red;
+}
+
+/*END NEW CONTACT*/

@@ -1,0 +1,12 @@
+export const CREATE_CONTACT = 'CREATE_CONTACT';
+export const FETCH_CONTACTS = 'FETCH_CONTACTS';
+export const FETCH_CONTACT = 'FETCH_CONTACT';
+export const DELETE_CONTACT = 'DELETE_CONTACT';
+export const EDIT_CONTACT = 'EDIT_CONTACT';
+
+export const FETCH_RANDOM_AVATAR = 'FETCH_RANDOM_AVATAR';
+export const FETCH_RANDOM_USER = 'FETCH_RANDOM_USER';
+
+export const SEARCH_TEXT = 'SEARCH_TEXT';
+
+export const GENDER_ARR =['men','women'];
